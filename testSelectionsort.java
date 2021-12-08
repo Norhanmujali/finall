@@ -5,6 +5,7 @@ import org.junit.Test;
 public class testSelectionSort {
 @Test
 public void test() {
+
 testPositive();
 testNegative();
 
@@ -12,6 +13,7 @@ testNegative();
 
    public testSelectionSort() {
    }
+
    
    public void testPositive(){
        int[] arr = new int[5];
@@ -50,5 +52,4 @@ testNegative();
    
    
   
-
 
