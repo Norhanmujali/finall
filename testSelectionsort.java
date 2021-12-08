@@ -5,47 +5,51 @@ import org.junit.Test;
 public class testSelectionSort {
 @Test
 public void test() {
-testMixed();
-testDuplicates();
+
+testPositive();
+testNegative();
 
 }
 
    public testSelectionSort() {
    }
 
-   public void testMixed(){
+   
+   public void testPositive(){
+       int[] arr = new int[5];
+       arr[0] = 8;
+       arr[1] = 9;
+       arr[2] = 7;
+       arr[3] = 10;
+       arr[4] = 2;
+       
+       int[] Sortedarr = new int[5];
+       Sortedarr[0] = 2;
+       Sortedarr[1] = 7;
+       Sortedarr[2] = 8;
+       Sortedarr[3] = 9;
+       Sortedarr[4] = 10;
+       
+       /** add tests to check for this unit test **/
+   }
+   
+   public void testNegative(){
+       
+       /** Test data contains negative values only **/
+   } int[] arr1 = new int[5]; {
+   arr1[0] = -8;
+   arr1[1] = -9;
+   arr1[2] = -7;
+   arr1[3] = -10;
+   arr1[4] = -2;
+   
+   int[] Sortedarr1 = new int[5];
+   Sortedarr1[0] = 2;
+   Sortedarr1[1] = 7;
+   Sortedarr1[2] = 8;
+   Sortedarr1[3] = 9;
+   Sortedarr1[4] = 10;}
+   
+   
+  
 
-    }{  /** Test data contains with both positive, negative and zeros **/
-     int[] arr2 = new int[5];
-    arr2[0] = 0;
-    arr2[1] = 9;
-    arr2[2] = -7;
-    arr2[3] = 10;
-    arr2[4] = 2;
-
-    int[] Sortedarr2 = new int[5];
-    Sortedarr2[0] = -2;
-    Sortedarr2[1] = 7;
-    Sortedarr2[2] = 8;
-    Sortedarr2[3] = 0;
-    Sortedarr2[4] = 10;
-    }
-
-    public void testDuplicates(){
- 	   int[] arr3 = new int[5];
-        arr3[0] = 1;
-        arr3[1] = 9;
-        arr3[2] = 7;
-        arr3[3] = -10;
-        arr3[4] = 2;
-
-        int[] Sortedarr3 = new int[5];
-        Sortedarr3[0] = 2;
-        Sortedarr3[1] = 1;
-        Sortedarr3[2] = 8;
-        Sortedarr3[3] = 7;
-        Sortedarr3[4] = -10;
-
-        /** Test data contains duplicates **/
-
- }}
